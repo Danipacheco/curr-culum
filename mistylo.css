@@ -4,7 +4,7 @@
 }
 body {
     font-size: 1em;
-    font-family: serif;
+    font-family: mifuente,serif;
     max-width: 960px;
     margin: 0 auto;/* para centrar la página*/
     background: -webkit-linear-gradient(salmon,yellow);
@@ -12,9 +12,25 @@ body {
     padding-left: 2em;
     padding-right: 1em;
 }
-#foto {
-    background-color: purple;
-    padding: ;
-    border: solid  1px;
+.texto {
+    text-decoration: none;
+}
+
+img {
+    border: solid 2px salmon;
+    border-radius: 25px;
     
+}
+@font-face {
+    font-family: mifuente;
+    src: url(fonts/Merienda-Bold.ttf);
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    padding-bottom: 12px;
+}
+li {
+    list-style-type: none;
 }
